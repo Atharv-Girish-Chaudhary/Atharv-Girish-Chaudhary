@@ -4,7 +4,7 @@
 
 ### 👨‍💻 About Me
 
-I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5] I am now pursuing my Master's in Computer Science at Northeastern University in Silicon Valley.
+I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning.  I am now pursuing my Master's in Computer Science at Northeastern University in Silicon Valley.
 
 I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. 
 
