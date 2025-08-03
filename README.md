@@ -4,11 +4,11 @@
 
 ### 👨‍💻 About Me
 
-[cite_start]I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5] I am now pursuing my Master's in Computer Science at Northeastern University in Silicon Valley.
+I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5] I am now pursuing my Master's in Computer Science at Northeastern University in Silicon Valley.
 
-I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite_start]During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. [cite: 8, 10, 11]
+I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. 
 
-[cite_start]📫 You can reach me at: **chaudharyatharvgirish@gmail.com** [cite: 3]
+📫 You can reach me at: **chaudharyatharvgirish@gmail.com** 
 
 ---
 
@@ -33,7 +33,7 @@ I am passionate about developing innovative software solutions by integrating cu
 
 Here are some of the key projects I've developed:
 
--   [cite_start]**Near Real-Time Simultaneous Multimodal Translation:** Developed a system that uses deep learning and NLP for instant language translation with personalized voice output. [cite: 13, 14, 15]
--   [cite_start]**Image Super-Resolution using CNNs:** Built a custom CNN model to upscale low-resolution images by 4x, enhancing visual quality. [cite: 17, 20, 21]
--   [cite_start]**Automated OCR to Excel Dashboard:** Designed a pipeline with a GUI to automate file conversion, text extraction using Tesseract, and data visualization. [cite: 24, 27, 28, 29]
--   [cite_start]**Abstract Art Evolution using Evolutionary Algorithms:** Implemented genetic algorithms to autonomously generate and optimize abstract artwork via a web application. [cite: 31, 34, 35]
+-   **Near Real-Time Simultaneous Multimodal Translation:** Developed a system that uses deep learning and NLP for instant language translation with personalized voice output. [cite: 13, 14, 15]
+-   **Image Super-Resolution using CNNs:** Built a custom CNN model to upscale low-resolution images by 4x, enhancing visual quality. [cite: 17, 20, 21]
+-   **Automated OCR to Excel Dashboard:** Designed a pipeline with a GUI to automate file conversion, text extraction using Tesseract, and data visualization. [cite: 24, 27, 28, 29]
+-   **Abstract Art Evolution using Evolutionary Algorithms:** Implemented genetic algorithms to autonomously generate and optimize abstract artwork via a web application. [cite: 31, 34, 35]
