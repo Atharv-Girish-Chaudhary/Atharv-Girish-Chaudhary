@@ -1,16 +1,14 @@
 # Hi there, I'm Atharv Girish Chaudhary 👋
 
-
 ---
 
 ### 👨‍💻 About Me
 
-[cite_start]I am a final-year Computer Science engineering student at SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5, 6] [cite_start]I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite: 15, 36]
+[cite_start]I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5, 6] [cite_start]I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite: 15, 36]
 
-- [cite_start]🔭 I’m currently developing a software solution for **Near Real-Time Multimodal Translation with Personalized Voice**. [cite: 13, 14]
-- [cite_start]🌱 I’m currently deepening my skills in **Deep Learning**, **Advanced Algorithms**, and **SQL/Databases** through specializations on Coursera and Udemy. [cite: 38, 39, 40, 41, 42]
--  [cite_start]internships I have worked as a **Database Administrator Intern** at Protect AI, where I managed database records and assisted in data organization. [cite: 8, 9, 10, 11]
-- [cite_start]📫 You can reach me at: **Atharv.chaudhary01@gmail.com** [cite: 3]
+[cite_start]During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. [cite: 8, 9, 10, 11]
+
+📫 You can reach me at: **chaudharyatharvgirish@gmail.com**
 
 ---
 
@@ -33,9 +31,9 @@
 
 ### 🚀 My Projects
 
-Here are some of the projects I've worked on. I'll be adding the repositories for them soon!
+Here are some of the key projects I've developed:
 
-- [cite_start]**Near Real-Time Simultaneous Multimodal Translation:** Developing a system that uses deep learning and NLP for instant language translation with personalized voice output. [cite: 13, 14, 15]
-- [cite_start]**Image Super-Resolution using CNNs:** Built a custom CNN model to upscale low-resolution images by 4x, enhancing visual quality. [cite: 17, 20, 21]
-- [cite_start]**Automated OCR to Excel Dashboard:** Designed a pipeline with a GUI to automate file conversion, text extraction using Tesseract, and data visualization. [cite: 24, 27, 28, 29]
-- [cite_start]**Abstract Art Evolution using Evolutionary Algorithms:** Implemented genetic algorithms to autonomously generate and optimize abstract artwork via a web application. [cite: 31, 34, 35]
+-   [cite_start]**Near Real-Time Simultaneous Multimodal Translation:** Developed a system that uses deep learning and NLP for instant language translation with personalized voice output. [cite: 13, 14, 15]
+-   [cite_start]**Image Super-Resolution using CNNs:** Built a custom CNN model to upscale low-resolution images by 4x, enhancing visual quality. [cite: 17, 20, 21]
+-   [cite_start]**Automated OCR to Excel Dashboard:** Designed a pipeline with a GUI to automate file conversion, text extraction using Tesseract, and data visualization. [cite: 24, 27, 28, 29]
+-   [cite_start]**Abstract Art Evolution using Evolutionary Algorithms:** Implemented genetic algorithms to autonomously generate and optimize abstract artwork via a web application. [cite: 31, 34, 35]
