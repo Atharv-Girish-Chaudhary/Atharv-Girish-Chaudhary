@@ -4,11 +4,11 @@
 
 ### 👨‍💻 About Me
 
-[cite_start]I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5, 6] [cite_start]I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite: 15, 36]
+[cite_start]I am a Computer Science graduate from SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5] I am now pursuing my Master's in Computer Science at Northeastern University in Silicon Valley.
 
-[cite_start]During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. [cite: 8, 9, 10, 11]
+I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite_start]During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. [cite: 8, 10, 11]
 
-📫 You can reach me at: **chaudharyatharvgirish@gmail.com**
+[cite_start]📫 You can reach me at: **chaudharyatharvgirish@gmail.com** [cite: 3]
 
 ---
 
