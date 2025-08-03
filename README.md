@@ -1,16 +1,41 @@
-## Hi there 👋
+# Hi there, I'm Atharv Girish Chaudhary 👋
 
-<!--
-**Atharv-Girish-Chaudhary/Atharv-Girish-Chaudhary** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 About Me
+
+[cite_start]I am a final-year Computer Science engineering student at SIES Graduate School of Technology, Mumbai, with a specialization in Artificial Intelligence and Machine Learning. [cite: 5, 6] [cite_start]I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. [cite: 15, 36]
+
+- [cite_start]🔭 I’m currently developing a software solution for **Near Real-Time Multimodal Translation with Personalized Voice**. [cite: 13, 14]
+- [cite_start]🌱 I’m currently deepening my skills in **Deep Learning**, **Advanced Algorithms**, and **SQL/Databases** through specializations on Coursera and Udemy. [cite: 38, 39, 40, 41, 42]
+-  [cite_start]internships I have worked as a **Database Administrator Intern** at Protect AI, where I managed database records and assisted in data organization. [cite: 8, 9, 10, 11]
+- [cite_start]📫 You can reach me at: **Atharv.chaudhary01@gmail.com** [cite: 3]
+
+---
+
+### 🛠️ My Tech Stack
+
+#### 🧠 AI & Machine Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+#### 🖼️ Data Preprocessing
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-272822?style=for-the-badge&logo=OpenCV&logoColor=white)
+
+#### 💾 Databases
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
+### 🚀 My Projects
+
+Here are some of the projects I've worked on. I'll be adding the repositories for them soon!
+
+- [cite_start]**Near Real-Time Simultaneous Multimodal Translation:** Developing a system that uses deep learning and NLP for instant language translation with personalized voice output. [cite: 13, 14, 15]
+- [cite_start]**Image Super-Resolution using CNNs:** Built a custom CNN model to upscale low-resolution images by 4x, enhancing visual quality. [cite: 17, 20, 21]
+- [cite_start]**Automated OCR to Excel Dashboard:** Designed a pipeline with a GUI to automate file conversion, text extraction using Tesseract, and data visualization. [cite: 24, 27, 28, 29]
+- [cite_start]**Abstract Art Evolution using Evolutionary Algorithms:** Implemented genetic algorithms to autonomously generate and optimize abstract artwork via a web application. [cite: 31, 34, 35]
