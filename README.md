@@ -7,7 +7,8 @@ I am now pursuing my Master's in Computer Science at Northeastern University in 
 
 I am passionate about developing innovative software solutions by integrating cutting-edge deep learning models, NLP techniques, and creative AI. During my internship as a **Database Administrator at Protect AI**, I managed database records and assisted in data organization. 
 
-📫 You can reach me at: **chaudharyatharvgirish@gmail.com** [LinkedIn](/https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/)
+📫 You can reach me at: [chaudharyatharvgirish@gmail.com](mailto:chaudharyatharvgirish@gmail.com) | [LinkedIn](https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/)
+
 
 ---
 
