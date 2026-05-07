@@ -1,7 +1,7 @@
 <p align="center">
   <strong>ML Engineer / GenAI Engineer track</strong>
   <br/>
-  <i>Generative models, reinforcement learning, and computer vision — usually with a custom loss or reward signal in the mix.</i>
+  <i>I build with ML and transformers. What pulls me in: how models learn and understand like humans.</i>
 </p>
 
 ---
@@ -10,8 +10,11 @@
 
 MS AI student at Northeastern's Silicon Valley campus (GPA 3.833, graduating May 2027). My work spans deep learning, generative models, RL, and CV — most projects involve modifying an architecture, designing a custom reward, or shaping a non-standard loss rather than training off-the-shelf.
 
-- **Incoming ML Intern at Tavant Technologies** (Summer 2026) — LangChain, LangGraph, RAG pipelines
+- **GenAI Intern at Tavant Technologies** (Summer 2026) — LangChain, LangGraph, RAG pipelines
+- **BE in AI & ML, University of Mumbai** (2021–2025)
 - **Compute:** Northeastern HPC (H200, SLURM), Colab Pro
+
+**Relevant coursework** — Foundations of AI, Program Design Paradigm, Algorithms, Reinforcement Learning, Deep Learning (Fall 2026), Computer Vision (Fall 2026).
 
 ---
 
@@ -19,7 +22,7 @@ MS AI student at Northeastern's Silicon Valley campus (GPA 3.833, graduating May
 
 **Languages** — Python, C, C++, Java, SQL
 **ML / Deep Learning** — PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, OpenCV
-**GenAI & Agents** — Claude API, MCP, LangChain, LangGraph, RAG, ChromaDB
+**GenAI & Agents** — Claude API, MCP, FastAPI, ChromaDB
 **Data & Infra** — NumPy, Pandas, CUDA, SLURM/HPC, Docker, Git, Jupyter
 
 ---
@@ -38,7 +41,7 @@ Hybrid Transformer + GE2E loss architecture that cut Equal Error Rate to **6.44%
 Modified SRCNN with non-linear luminance enhancement and LeakyReLU activations: **+13.3 PSNR / +0.32 SSIM** over baseline. Vibrancy-Weighted Blending + Kernel Sharpening postprocessing yields **50% better perceived sharpness** at 54–84ms per image on CPU.
 `TensorFlow · OpenCV · Python`
 
-**Ordinal vs Nominal Sentiment Classification** · *Dec 2025*
+**[Ordinal vs Nominal Sentiment Classification](https://github.com/Atharv-Girish-Chaudhary/ordinal-sentiment-classification)** · *Dec 2025*
 Compared four classifiers (Multinomial NB, Logistic Regression, Ridge Regression, Ordinal Logistic) on **49,960 Amazon Electronics reviews** (TF-IDF, 5K unigrams + bigrams). Ridge Regression cut severe error rate (predictions ≥3 classes off) **from 34.8% to 18.1% — a 48% reduction** — trading ~16 points of exact-match accuracy for distance-aware error reduction critical for ordinal targets.
 `Scikit-learn · mord · TF-IDF`
 
