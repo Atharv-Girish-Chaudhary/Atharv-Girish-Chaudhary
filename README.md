@@ -1,87 +1,76 @@
-<div align="center">
-
-  <!-- Typing Animation -->
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=23&duration=3200&pause=1200&color=FFFFFF&center=true&vCenter=true&width=950&height=80&lines=%24+whoami;Master's+Student+in+Artificial+Intelligence;%24+run+engineer.py;Building+production+ML+and+GenAI+systems...;%24+train_model+--epochs+100;Patience+required.;%24+ssh+atharv%40ml-engineering;Connection+established."
-      alt="Typing SVG"
-    />
-  </a>
-
-  <br />
-  <br />
-
-<!-- About Banner -->
-  <img
-    src="./assets/banner.svg"
-    alt="About Terminal Banner"
-    width="900"
-  />
-  <br />
-
-
+<h1 align="center">Atharv Girish Chaudhary</h1>
 <p align="center">
-  I build machine learning and generative AI systems, with a focus on deep learning, computer vision, and reinforcement learning. Currently pursuing a Master of Science in Artificial Intelligence at Northeastern University, Silicon Valley, after completing a Bachelor of Engineering in Artificial Intelligence and Machine Learning at the University of Mumbai.
-  <br />
-  My work centres on translating research-grade techniques into reproducible, production-ready systems — from transformer architectures and PPO agents to agentic GenAI applications.
+  MS in Artificial Intelligence @ Northeastern University · Boston, MA
+  <br/>
+  Building at the intersection of deep learning, generative models, and reinforcement learning.
 </p>
 
-  <!-- Tech Stack Animation -->
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=1000&color=FFFFFF&center=true&vCenter=true&width=900&height=120&lines=%24+initialize_ml_stack;Loading+neural+frameworks...;Loading+GenAI+toolkit...;Initializing+systems+environment...;Environment+ready."
-      alt="Tech Stack Animation"
-    />
-  </a>
+---
 
-  <br />
+### About
 
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+I'm an MS AI student at Northeastern targeting **ML Engineer / Applied Scientist** roles. My work spans transformers, generative models, RL, and computer vision — with a current focus on production LLM systems.
 
-  <br />
+- Incoming **ML Intern at Tavant Technologies** (Summer 2026) — LangChain, LangGraph, and RAG pipelines
+- Previously: **Database Administrator at Protect AI**
+- Compute: Northeastern HPC (H200, SLURM), Colab Pro
 
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude%20API-D97706?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white" />
+---
 
-  <br />
+### Tech Stack
 
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+**Languages** — Python, C++, Java, SQL
 
-  <br />
+**ML / Deep Learning** — PyTorch, Hugging Face Transformers, Stable-Baselines3, scikit-learn, NumPy, Pandas
 
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+**LLM & Agents** — LangChain, LangGraph, RAG
 
-  <br />
-  <br />
+**Infra & Tooling** — SLURM, Docker, Miniforge, Git, VS Code, Warp, Claude Code
 
-  <!-- Connect Animation -->
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2400&pause=900&color=FFFFFF&center=true&vCenter=true&width=900&height=90&lines=%24+establish_connection;%24+ping+linkedin.com;%24+ssh+recruiter%40ml-engineering;%24+mail+atharv%40ai.engineer"
-      alt="Connect Animation"
-    />
-  </a>
+---
 
-<br />
+### Featured Projects
+
+**[SpeakEmbed-T](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)**
+Transformer-based speaker encoder producing speaker-identity embeddings for downstream voice tasks.
+
+**[NL2ECF-SRCNN](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)**
+Modified SRCNN for super-resolution with variance-weighted blending and Kolmogorov–Smirnov refinement.
+
+**[Genetic Optimization Framework](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction)**
+Pixel-precise image reconstruction via a custom genetic optimization pipeline.
+
+**[OCR + Excel Visualization Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard)**
+End-to-end OCR pipeline with interactive Excel-based reporting.
+
+**RL Drum Beat Generator** *(repo coming soon)*
+Two-level PPO system for generative drum beats with discriminator-guided rewards. 4×16 → 8×16 grid, 8 instruments.
+
+**DevFlow** *(repo coming soon)*
+Hackathon-winning developer productivity tool.
+
+---
+
+### Currently
+
+- Prepping for the Tavant ML internship — LangChain, LangGraph, RAG internals
+- Self-studying CS 5180 (Reinforcement Learning) and CS 5800 (Algorithms)
+- Working through NeetCode 150 — pattern-first DSA prep for ML interviews
+
+---
+
+### GitHub Stats
 
 <p align="center">
-  I am open to Machine Learning Engineer and GenAI Engineer roles, internship opportunities, and conversations about applied AI problems.
-  <br />
-  Email is the fastest channel.
+  <img src="https://github-readme-stats.vercel.app/api?username=Atharv-Girish-Chaudhary&show_icons=true&hide_border=true&include_all_commits=true" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharv-Girish-Chaudhary&layout=compact&hide_border=true&langs_count=8" />
 </p>
 
-</div>
+---
+
+### Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/2TEPA8efOq/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:chaudharyatharvgirish@gmail.com)
