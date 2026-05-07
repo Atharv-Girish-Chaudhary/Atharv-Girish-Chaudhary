@@ -11,16 +11,13 @@
   <br />
   <br />
 
-  <!-- About Banner -->
-  <!-- Add your own banner: drop an image at ./assets/banner.png and uncomment the block below -->
-  <!--
+<!-- About Banner -->
   <img
-    src="./assets/banner.png"
+    src="./assets/banner.svg"
     alt="About Terminal Banner"
-    width="700"
+    width="900"
   />
   <br />
-  -->
 
 
 <p align="center">
