@@ -1,71 +1,55 @@
-<h1 align="center">Atharv Girish Chaudhary</h1>
 <p align="center">
-  MS in Artificial Intelligence @ Northeastern University · Boston, MA
+  <strong>ML Engineer / GenAI Engineer track</strong>
   <br/>
-  Building at the intersection of deep learning, generative models, and reinforcement learning.
+  <i>Generative models, reinforcement learning, and computer vision — usually with a custom loss or reward signal in the mix.</i>
 </p>
 
 ---
 
 ### About
 
-I'm an MS AI student at Northeastern targeting **ML Engineer / Applied Scientist** roles. My work spans transformers, generative models, RL, and computer vision — with a current focus on production LLM systems.
+MS AI student at Northeastern's Silicon Valley campus (GPA 3.833, graduating May 2027). My work spans deep learning, generative models, RL, and CV — most projects involve modifying an architecture, designing a custom reward, or shaping a non-standard loss rather than training off-the-shelf.
 
-- Incoming **ML Intern at Tavant Technologies** (Summer 2026) — LangChain, LangGraph, and RAG pipelines
-- Previously: **Database Administrator at Protect AI**
-- Compute: Northeastern HPC (H200, SLURM), Colab Pro
+- **Incoming ML Intern at Tavant Technologies** (Summer 2026) — LangChain, LangGraph, RAG pipelines
+- **Compute:** Northeastern HPC (H200, SLURM), Colab Pro
 
 ---
 
 ### Tech Stack
 
-**Languages** — Python, C++, Java, SQL
-
-**ML / Deep Learning** — PyTorch, Hugging Face Transformers, Stable-Baselines3, scikit-learn, NumPy, Pandas
-
-**LLM & Agents** — LangChain, LangGraph, RAG
-
-**Infra & Tooling** — SLURM, Docker, Miniforge, Git, VS Code, Warp, Claude Code
+**Languages** — Python, C, C++, Java, SQL
+**ML / Deep Learning** — PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, OpenCV
+**GenAI & Agents** — Claude API, MCP, LangChain, LangGraph, RAG, ChromaDB
+**Data & Infra** — NumPy, Pandas, CUDA, SLURM/HPC, Docker, Git, Jupyter
 
 ---
 
 ### Featured Projects
 
-**[SpeakEmbed-T](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)**
-Transformer-based speaker encoder producing speaker-identity embeddings for downstream voice tasks.
+**[RL Beat Generation — PPO Agent with Transformer Discriminator](https://github.com/Atharv-Girish-Chaudhary/rl-beat-generation)** · *May 2026*
+Trained a PPO agent that beat the random baseline by **~9.5× rule reward** (0.96 vs 0.10) on a 4×16 drum-beat composition task, with autoregressive 3-head action factoring. Pre-trained a 2-layer / 4-head transformer beat discriminator on Groove MIDI to **95.1% validation accuracy**, integrated as a learned reward in a hybrid α·rules + β·discriminator scheme. Extended to an 8×16 grid in Phase 2.
+`PyTorch · PPO · Transformers · Gymnasium`
 
-**[NL2ECF-SRCNN](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)**
-Modified SRCNN for super-resolution with variance-weighted blending and Kolmogorov–Smirnov refinement.
+**[SpeakEmbed-T — Transformer-Based Speaker Encoder](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)** · *May 2025*
+Hybrid Transformer + GE2E loss architecture that cut Equal Error Rate to **6.44% on LibriSpeech — 11.3% lower than the LSTM baseline**. Audio preprocessing pipeline (resampling, peak normalization, VAD) runs at **310ms CPU inference**.
+`PyTorch · HuggingFace Transformers · LibriSpeech`
 
-**[Genetic Optimization Framework](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction)**
-Pixel-precise image reconstruction via a custom genetic optimization pipeline.
+**[NL2ECF-SRCNN — Modified SRCNN for Super-Resolution](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)** · *May 2024*
+Modified SRCNN with non-linear luminance enhancement and LeakyReLU activations: **+13.3 PSNR / +0.32 SSIM** over baseline. Vibrancy-Weighted Blending + Kernel Sharpening postprocessing yields **50% better perceived sharpness** at 54–84ms per image on CPU.
+`TensorFlow · OpenCV · Python`
 
-**[OCR + Excel Visualization Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard)**
-End-to-end OCR pipeline with interactive Excel-based reporting.
+**Ordinal vs Nominal Sentiment Classification** · *Dec 2025*
+Compared four classifiers (Multinomial NB, Logistic Regression, Ridge Regression, Ordinal Logistic) on **49,960 Amazon Electronics reviews** (TF-IDF, 5K unigrams + bigrams). Ridge Regression cut severe error rate (predictions ≥3 classes off) **from 34.8% to 18.1% — a 48% reduction** — trading ~16 points of exact-match accuracy for distance-aware error reduction critical for ordinal targets.
+`Scikit-learn · mord · TF-IDF`
 
-**RL Drum Beat Generator** *(repo coming soon)*
-Two-level PPO system for generative drum beats with discriminator-guided rewards. 4×16 → 8×16 grid, 8 instruments.
-
-**DevFlow** *(repo coming soon)*
-Hackathon-winning developer productivity tool.
-
----
-
-### Currently
-
-- Prepping for the Tavant ML internship — LangChain, LangGraph, RAG internals
-- Self-studying CS 5180 (Reinforcement Learning) and CS 5800 (Algorithms)
-- Working through NeetCode 150 — pattern-first DSA prep for ML interviews
+More: [Genetic Optimization Framework](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction) · [OCR + Excel Visualization Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard)
 
 ---
 
-### GitHub Stats
+### Achievements
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Atharv-Girish-Chaudhary&show_icons=true&hide_border=true&include_all_commits=true" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharv-Girish-Chaudhary&layout=compact&hide_border=true&langs_count=8" />
-</p>
+**1st Place — Northeastern University "From Prototype to Product" AI Hackathon**
+Pitched and built an agentic system using Claude API, MCP, FastAPI, and ChromaDB.
 
 ---
 
