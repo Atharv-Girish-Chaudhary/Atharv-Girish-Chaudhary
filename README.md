@@ -4,9 +4,9 @@ I build machine learning and generative AI systems, with a focus on deep learnin
 
 My work centres on translating research-grade techniques into reproducible, production-ready systems — from transformer architectures and PPO agents to agentic GenAI applications.
 
-[![followers](https://custom-icon-badges.demolab.com/github/followers/YOUR-USERNAME?color=%23E05D44&labelColor=CE4630&style=for-the-badge&logo=person-add&label=FOLLOWERS&logoColor=white&cacheSeconds=0)](https://github.com/YOUR-USERNAME?tab=followers)
-[![total stars](https://custom-icon-badges.demolab.com/github/stars/YOUR-USERNAME?color=%23E1AD0E&style=for-the-badge&labelColor=C79600&logo=star&label=STARS)](https://github.com/YOUR-USERNAME?tab=repositories&sort=stargazers)
-[![public repositories](https://custom-icon-badges.demolab.com/badge/dynamic/json?logo=repo&label=PUBLIC%20REPOS&color=55960c&labelColor=488207&style=for-the-badge&logoColor=white&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FYOUR-USERNAME)](https://github.com/YOUR-USERNAME?tab=repositories)
+[![followers](https://custom-icon-badges.demolab.com/github/followers/Atharv-Girish-Chaudhary?color=%23E05D44&labelColor=CE4630&style=for-the-badge&logo=person-add&label=FOLLOWERS&logoColor=white&cacheSeconds=0)](https://github.com/Atharv-Girish-Chaudhary?tab=followers)
+[![total stars](https://custom-icon-badges.demolab.com/github/stars/Atharv-Girish-Chaudhary?color=%23E1AD0E&style=for-the-badge&labelColor=C79600&logo=star&label=STARS)](https://github.com/Atharv-Girish-Chaudhary?tab=repositories&sort=stargazers)
+[![public repositories](https://custom-icon-badges.demolab.com/badge/dynamic/json?logo=repo&label=PUBLIC%20REPOS&color=55960c&labelColor=488207&style=for-the-badge&logoColor=white&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAtharv-Girish-Chaudhary)](https://github.com/Atharv-Girish-Chaudhary?tab=repositories)
 
 [![Tech Stack Animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=1000&color=FFFFFF&center=true&vCenter=true&width=900&height=120&lines=%24+initialize_ml_stack;Loading+neural+frameworks...;Loading+GenAI+toolkit...;Initializing+systems+environment...;Environment+ready.)](https://git.io/typing-svg)
 
