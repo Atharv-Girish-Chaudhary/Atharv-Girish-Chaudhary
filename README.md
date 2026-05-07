@@ -45,8 +45,6 @@ Modified SRCNN with non-linear luminance enhancement and LeakyReLU activations: 
 Compared four classifiers (Multinomial NB, Logistic Regression, Ridge Regression, Ordinal Logistic) on **49,960 Amazon Electronics reviews** (TF-IDF, 5K unigrams + bigrams). Ridge Regression cut severe error rate (predictions ≥3 classes off) **from 34.8% to 18.1% — a 48% reduction** — trading ~16 points of exact-match accuracy for distance-aware error reduction critical for ordinal targets.
 `Scikit-learn · mord · TF-IDF`
 
-More: [Genetic Optimization Framework](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction) · [OCR + Excel Visualization Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard)
-
 ---
 
 ### Achievements
