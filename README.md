@@ -29,34 +29,6 @@
   My work centres on translating research-grade techniques into reproducible, production-ready systems — from transformer architectures and PPO agents to agentic GenAI applications.
 </p>
 
-  <!-- GitHub Stats Badges -->
-  <a href="https://github.com/Atharv-Girish-Chaudhary?tab=followers">
-    <img
-      alt="followers"
-      title="Follow me on GitHub"
-      src="https://custom-icon-badges.demolab.com/github/followers/Atharv-Girish-Chaudhary?color=%23E05D44&labelColor=CE4630&style=for-the-badge&logo=person-add&label=FOLLOWERS&logoColor=white&cacheSeconds=0"
-    />
-  </a>
-
-  <a href="https://github.com/Atharv-Girish-Chaudhary?tab=repositories&sort=stargazers">
-    <img
-      alt="total stars"
-      title="Total stars on GitHub"
-      src="https://custom-icon-badges.demolab.com/github/stars/Atharv-Girish-Chaudhary?color=%23E1AD0E&style=for-the-badge&labelColor=C79600&logo=star&label=STARS"
-    />
-  </a>
-
-  <a href="https://github.com/Atharv-Girish-Chaudhary?tab=repositories">
-    <img
-      alt="public repositories"
-      title="Public repositories"
-      src="https://custom-icon-badges.demolab.com/badge/dynamic/json?logo=repo&label=PUBLIC%20REPOS&color=55960c&labelColor=488207&style=for-the-badge&logoColor=white&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAtharv-Girish-Chaudhary"
-    />
-  </a>
-
-  <br />
-  <br />
-
   <!-- Tech Stack Animation -->
   <a href="https://git.io/typing-svg">
     <img
@@ -113,19 +85,6 @@
   I am open to Machine Learning Engineer and GenAI Engineer roles, internship opportunities, and conversations about applied AI problems.
   <br />
   Email is the fastest channel.
-</p>
-
-<p align="center">
-
-  <a href="https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/">
-    linkedin
-  </a>
-  ·
-
-  <a href="mailto:chaudharyatharvgirish@gmail.com">
-    email
-  </a>
-
 </p>
 
 </div>
