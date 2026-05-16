@@ -1,12 +1,11 @@
-<p align="center">
-  <strong>ML Engineer / GenAI Engineer track</strong>
-  <br/>
-  <i>Building generative and RL systems. What pulls me in: how models learn and fail in interesting ways.</i>
-</p>
+# Atharv Girish Chaudhary
+
+**ML Engineer / GenAI Engineer track**\
+*Building generative and RL systems. What pulls me in: how models learn and fail in interesting ways.*
 
 ---
 
-### About
+## About
 
 MS AI student at Northeastern's Silicon Valley campus, graduating May 2027. My work spans deep learning, generative models, RL, and CV — most projects involve modifying an architecture, designing a custom reward, or shaping a non-standard loss rather than training off-the-shelf.
 
@@ -15,7 +14,7 @@ MS AI student at Northeastern's Silicon Valley campus, graduating May 2027. My w
 
 ---
 
-### Currently
+## Currently
 
 - Prepping for Tavant: LangGraph, agentic RAG, retrieval evals
 - Wrapping up RL drum-beat generation (PPO + transformer discriminator)
@@ -24,7 +23,7 @@ MS AI student at Northeastern's Silicon Valley campus, graduating May 2027. My w
 
 ---
 
-### Tech Stack
+## Tech Stack
 
 **ML / Deep Learning**
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
@@ -58,7 +57,7 @@ MS AI student at Northeastern's Silicon Valley campus, graduating May 2027. My w
 
 ---
 
-### Featured Projects
+## Featured Projects
 
 **[RL Beat Generation — PPO Agent with Transformer Discriminator](https://github.com/Atharv-Girish-Chaudhary/rl-beat-generation)** · *May 2026*
 Trained a PPO agent that beat the random baseline by **~9.5× rule reward** (0.96 vs 0.10) on a 4×16 drum-beat composition task, with autoregressive 3-head action factoring. Pre-trained a 2-layer / 4-head transformer beat discriminator on Groove MIDI to **95.1% validation accuracy**, integrated as a learned reward in a hybrid α·rules + β·discriminator scheme. Extended to an 8×16 grid in Phase 2.
@@ -80,7 +79,7 @@ Modified SRCNN with non-linear luminance enhancement and LeakyReLU activations: 
 
 ---
 
-### Connect
+## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/2TEPA8efOq/)
