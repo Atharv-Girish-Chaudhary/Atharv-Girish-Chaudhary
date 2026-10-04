@@ -25,8 +25,9 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 
 ## Currently
 
-- Interviewing for ML Engineer and GenAI Engineer roles
-- Building LLM Router: a multi-provider prompt-comparison app with a neutral LLM judge (live demo deploy next)
+- Open to ML Engineer and GenAI Engineer roles (graduating May 2027)
+- Finishing model-verdict, a multi-model prompt-comparison app with a blind LLM judge (live at [model-verdict.omnideckai.com](https://model-verdict.omnideckai.com))
+- Taking Deep Learning and Computer Vision for my MS this fall
 
 ---
 
@@ -38,6 +39,7 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-2E2E2E?style=flat&logoColor=white)
 
 **GenAI & Agents**
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white)
@@ -51,6 +53,7 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-94A3B8?style=flat&logo=openrouter&logoColor=white)
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -58,6 +61,7 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **Data & Infra**
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
@@ -74,9 +78,9 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 
 ## Featured Projects
 
-**[LLM Router: Multi-Provider Prompt-Comparison App](https://github.com/Atharv-Girish-Chaudhary/llm-router)** · *June 2026 to present*
-Fans a single prompt out to Anthropic, NVIDIA, and Google Gemini concurrently and streams their responses side by side in real time over Server-Sent Events. A neutral LLM-as-a-Judge (Llama 3.3 70B, a non-contestant) then scores the responses with bias-randomized ordering and picks a winner. The core value is the disagreement case: where the judge's blind pick diverges from the user's. Provider-agnostic adapter interface with a mock-to-real flag, a per-response latency and token panel, a committed SPEC.md, a no-network pytest suite, and MIT license.
-`FastAPI · Python · JavaScript · SSE · Anthropic / NVIDIA / Gemini APIs`
+**[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*
+Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. A per-response latency and token panel, a zero-cost mock mode, and a spec-first build.
+`FastAPI · Python · JavaScript · SSE · OpenRouter`
 
 **[DevFlow: Engineering Lifecycle Intelligence Platform](https://github.com/Atharv-Girish-Chaudhary/devflow)** · *March 2026*
 **1st Place, Northeastern "From Prototype to Product" AI Hackathon** (3-person team). Agentic system that captures engineering knowledge before team members leave and surfaces it when new ones onboard, differentiated from code-intelligence tools by targeting the why behind architectural decisions, not just the what. Design and architecture are published (story, docs, architecture diagram); the agentic implementation is the next build stage.
