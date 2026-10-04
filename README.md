@@ -13,10 +13,10 @@ MS AI student at Northeastern's Silicon Valley campus (graduating May 2027), aft
 
 ## Experience
 
-**GenAI Intern, Tavant Technologies** · *May 2026 to July 2026*
+**GenAI Intern, Tavant Technologies** · *May 2026 to July 2026*\
 Built an offline evaluator for multi-agent LLM pipelines: the supervisory evaluation layer most agent stacks skip.
 
-- Scored each agent hop with six deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), cross-validated against RAGAS and emitting structured per-hop verdicts.
+- Scored each agent hop with five deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), cross-validated against RAGAS and emitting structured per-hop verdicts.
 - Built deterministic failure attribution that walks per-agent verdicts in execution order to pinpoint the first agent responsible for a multi-hop pipeline failure.
 - Architected it to score off saved, OpenTelemetry-compatible trace files (decoupled from the pipeline, not an in-graph node) for offline replay, built spec-first in thin, independently shippable slices against Amazon Bedrock models.
 - Added an online mode that tails live traces to score unlabeled traffic reference-free, with drift detection (PSI and embedding-centroid distance) across routing, retrieved context, input queries, and output quality.
@@ -78,24 +78,24 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 
 ## Featured Projects
 
-**[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*
-Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. A per-response latency and token panel, a zero-cost mock mode, and a spec-first build.
+**[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*\
+Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. A per-response latency and token panel, a zero-cost mock mode, and a spec-first build.\
 `FastAPI · Python · JavaScript · SSE · OpenRouter`
 
-**[DevFlow: Engineering Lifecycle Intelligence Platform](https://github.com/Atharv-Girish-Chaudhary/devflow)** · *March 2026*
-**1st Place, Northeastern "From Prototype to Product" AI Hackathon** (3-person team). Agentic system that captures engineering knowledge before team members leave and surfaces it when new ones onboard, differentiated from code-intelligence tools by targeting the why behind architectural decisions, not just the what. Design and architecture are published (story, docs, architecture diagram); the agentic implementation is the next build stage.
+**[DevFlow: Engineering Lifecycle Intelligence Platform](https://github.com/Atharv-Girish-Chaudhary/devflow)** · *March 2026*\
+**1st Place, Northeastern "From Prototype to Product" AI Hackathon** (3-person team). Agentic system that captures engineering knowledge before team members leave and surfaces it when new ones onboard, differentiated from code-intelligence tools by targeting the why behind architectural decisions, not just the what. Design and architecture are published (story, docs, architecture diagram); the agentic implementation is the next build stage.\
 `Claude API · LangGraph · FastAPI · ChromaDB · Multi-Agent`
 
-**[RL Beat Generation: PPO Agent with Transformer Discriminator](https://github.com/Atharv-Girish-Chaudhary/rl-beat-generation)** · *May 2026*
-Trained a PPO agent that beat the random baseline by **+130% rule reward** (0.96 vs 0.42) on a 4×16 drum-beat composition task, with autoregressive 3-head action factoring. Pre-trained a 2-layer, 4-head transformer beat discriminator on Groove MIDI to **95.1% validation accuracy**, integrated as a learned reward in a hybrid α·rules + β·discriminator scheme. Extended to an 8×16 grid in Phase 2.
+**[RL Beat Generation: PPO Agent with Transformer Discriminator](https://github.com/Atharv-Girish-Chaudhary/rl-beat-generation)** · *May 2026*\
+3-person team project; my part: the PPO training loop, the discriminator, and the Phase 2 expansion. Trained a PPO agent that beat the random baseline by **+130% rule reward** (0.96 vs 0.42) on a 4×16 drum-beat composition task, with autoregressive 3-head action factoring. Pre-trained a 2-layer, 4-head transformer beat discriminator on Groove MIDI, integrated as a learned reward in a hybrid α·rules + β·discriminator scheme. Extended to an 8×16 grid in Phase 2.\
 `PyTorch · PPO · Transformers · Gymnasium`
 
-**[SpeakEmbed-T: Transformer-Based Speaker Encoder](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)** · *May 2025*
-Hybrid Transformer + GE2E loss architecture that cut Equal Error Rate to **6.44% on LibriSpeech** (11.3% lower than the LSTM baseline). Audio preprocessing pipeline (resampling, peak normalization, VAD) runs at **310ms CPU inference**.
+**[SpeakEmbed-T: Transformer-Based Speaker Encoder](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)** · *May 2025*\
+Built jointly with Keegan Dsouza. Replaced the usual LSTM speaker encoder with a Transformer trained on LibriSpeech with GE2E loss, mapping speech to 256-dimensional speaker embeddings used for voice cloning. Audio preprocessing with resampling, loudness normalization, and WebRTC voice activity detection.\
 `PyTorch · HuggingFace Transformers · LibriSpeech`
 
-**[NL2ECF-SRCNN: Modified SRCNN for Super-Resolution](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)** · *May 2024*
-Modified SRCNN with non-linear luminance enhancement and LeakyReLU activations: **+13.3 PSNR, +0.32 SSIM** over baseline. Vibrancy-Weighted Blending and Kernel Sharpening postprocessing yields **50% better perceived sharpness** at 54 to 84ms per image on CPU.
+**[NL2ECF-SRCNN: Modified SRCNN for Super-Resolution](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)** · *May 2024*\
+Built jointly with Keegan Dsouza. Modified SRCNN with LeakyReLU activations that sharpens blurry, low-resolution images by predicting their luminance (Y) channel, followed by Vibrancy-Weighted Blending and Kernel Sharpening post-processing.\
 `TensorFlow · OpenCV · Python`
 
 **More:** [Genetic Optimization](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction) · [OCR + Excel Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard) · [Ordinal Sentiment Classification](https://github.com/Atharv-Girish-Chaudhary/ordinal-sentiment-classification) · [CodeCorrect](https://github.com/Atharv-Girish-Chaudhary/CodeCorrect)
