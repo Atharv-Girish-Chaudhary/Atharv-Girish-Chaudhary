@@ -9,6 +9,8 @@
 
 MS AI student at Northeastern's Silicon Valley campus (graduating May 2027), after a BE in AI & ML from the University of Mumbai (2021 to 2025). My work spans deep learning, generative models, RL, agentic LLM systems, and CV. Most projects involve modifying an architecture, designing a custom reward, shaping a non-standard loss, or building the evaluation and observability layer around a system, rather than training off-the-shelf.
 
+Completed coursework: Reinforcement Learning, Foundations of Artificial Intelligence, Algorithms, and Program Design Paradigms.
+
 ---
 
 ## Experience
@@ -53,21 +55,23 @@ Built an offline evaluator for multi-agent LLM pipelines: the supervisory evalua
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-94A3B8?style=flat&logo=openrouter&logoColor=white)
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **Data & Infra**
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logoColor=white)
 ![Server-Sent Events](https://img.shields.io/badge/Server--Sent%20Events-FF6C37?style=flat&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![SLURM](https://img.shields.io/badge/SLURM-2C3E50?style=flat&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -98,7 +102,12 @@ Built jointly with Keegan Dsouza. Replaced the usual LSTM speaker encoder with a
 Built jointly with Keegan Dsouza. Modified SRCNN with LeakyReLU activations that sharpens blurry, low-resolution images by predicting their luminance (Y) channel, followed by Vibrancy-Weighted Blending and Kernel Sharpening post-processing.\
 `TensorFlow · OpenCV · Python`
 
-**More:** [Genetic Optimization](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction) · [OCR + Excel Dashboard](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard) · [Ordinal Sentiment Classification](https://github.com/Atharv-Girish-Chaudhary/ordinal-sentiment-classification) · [CodeCorrect](https://github.com/Atharv-Girish-Chaudhary/CodeCorrect)
+**More projects**
+
+- [CodeCorrect](https://github.com/Atharv-Girish-Chaudhary/CodeCorrect): spell checker for mistyped code, built on four edit-distance methods. CS 5800 team project with Sandeep Vijayarao and Scott Biggs; my part: the tabulated and space-optimized methods, the Streamlit demo, 5 of the 6 test files, and CI.
+- [Ordinal Sentiment Classification](https://github.com/Atharv-Girish-Chaudhary/ordinal-sentiment-classification): predicts 1 to 5 star ratings for Amazon reviews, comparing standard classifiers with ones that treat the stars as ordered. On 9,992 held-out reviews, Ridge regression cut the share of mistakes that were off by two or more stars from 35–44% to 18%, at a cost of about 16 accuracy points. CS 5100 team project with Kien Nguyen and Zijie Liu; my part: preprocessing, TF-IDF features, the Ridge model, and the visualizations.
+- [Genetic Image Reconstruction](https://github.com/Atharv-Girish-Chaudhary/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction): genetic algorithm that rebuilds an image pixel by pixel, with no gradients or neural network. Built jointly with Keegan Dsouza.
+- [OCR Table Extraction](https://github.com/Atharv-Girish-Chaudhary/Optical-Character-Recognition-and-Excel-Visualisation-Dashboard): desktop app that finds table cells in scanned PDFs and images with OpenCV and reads them with Tesseract. Solo project.
 
 ---
 
