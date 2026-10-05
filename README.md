@@ -113,7 +113,7 @@ Built jointly with Keegan Dsouza. Modified SRCNN with LeakyReLU activations that
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/2TEPA8efOq/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:chaudhary.at@northeastern.edu)
 [![Resume](https://img.shields.io/badge/Resume-2E2E2E?style=flat&logo=adobeacrobatreader&logoColor=white)](https://github.com/Atharv-Girish-Chaudhary/Atharv-Girish-Chaudhary/blob/main/Atharv_Chaudhary_Resume.pdf)
