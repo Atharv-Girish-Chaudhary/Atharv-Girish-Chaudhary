@@ -18,7 +18,7 @@ Completed coursework: Reinforcement Learning, Foundations of Artificial Intellig
 **GenAI Intern, Tavant Technologies** · *May 2026 to July 2026*\
 Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation layer most agent stacks skip.
 
-- Scored each agent hop with five deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), emitting structured per-hop verdicts. The deterministic context-precision and tool-call scores match RAGAS's own implementations on every test case.
+- Scored agent hops with five deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), emitting structured per-hop verdicts. The deterministic context-precision and tool-call scores match RAGAS's own implementations on every test case.
 - Built deterministic failure attribution that walks per-agent verdicts in execution order to name the first agent whose own verdict failed, paired with retrieval and tool-call checks for the faults that leave every verdict passing (the wrong retrieved chunk, tool, or argument). Exercised on 7 fault-injection scenarios in a LangGraph pipeline.
 - Architected it to score saved, OpenTelemetry-compatible trace files (decoupled from the pipeline, not an in-graph node) for offline replay, so the same scorers ran unchanged on a Pydantic AI app's native OpenTelemetry traces through one added adapter. Built spec-first in thin, independently shippable slices against Amazon Bedrock models.
 - Added an online mode that tails live traces to score unlabeled traffic reference-free, plus a drift job (PSI and embedding-centroid distance) covering routing, retrieved context, input queries, and output quality.
@@ -49,7 +49,7 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ![Anthropic](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA%20API-76B900?style=flat&logo=nvidia&logoColor=white)
-![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logoColor=white)
 ![RAGAS](https://img.shields.io/badge/RAGAS-2E2E2E?style=flat&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
@@ -96,7 +96,7 @@ Planned stack: `Claude API · LangGraph · FastAPI · ChromaDB · Multi-Agent`
 
 **[SpeakEmbed-T: Transformer-Based Speaker Encoder](https://github.com/Atharv-Girish-Chaudhary/SpeakEmbed-T)** · *May 2025*\
 Built jointly with Keegan Dsouza. Replaced the usual LSTM speaker encoder with a Transformer trained on LibriSpeech with GE2E loss, mapping speech to 256-dimensional speaker embeddings used for voice cloning. Audio preprocessing with resampling, loudness normalization, and WebRTC voice activity detection.\
-`PyTorch · HuggingFace Transformers · LibriSpeech`
+`PyTorch · LibriSpeech · Streamlit`
 
 **[NL2ECF-SRCNN: Modified SRCNN for Super-Resolution](https://github.com/Atharv-Girish-Chaudhary/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement)** · *May 2024*\
 Built jointly with Keegan Dsouza. Modified SRCNN with LeakyReLU activations that sharpens blurry, low-resolution images by predicting their luminance (Y) channel, followed by Vibrancy-Weighted Blending and Kernel Sharpening post-processing.\
@@ -113,6 +113,6 @@ Built jointly with Keegan Dsouza. Modified SRCNN with LeakyReLU activations that
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logoColor=white)](https://www.linkedin.com/in/atharv-girish-chaudhary/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/2TEPA8efOq/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:chaudhary.at@northeastern.edu)
