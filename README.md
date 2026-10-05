@@ -16,12 +16,12 @@ Completed coursework: Reinforcement Learning, Foundations of Artificial Intellig
 ## Experience
 
 **GenAI Intern, Tavant Technologies** · *May 2026 to July 2026*\
-Built an offline evaluator for multi-agent LLM pipelines: the supervisory evaluation layer most agent stacks skip.
+Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation layer most agent stacks skip.
 
-- Scored each agent hop with five deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), cross-validated against RAGAS and emitting structured per-hop verdicts.
-- Built deterministic failure attribution that walks per-agent verdicts in execution order to pinpoint the first agent responsible for a multi-hop pipeline failure.
-- Architected it to score off saved, OpenTelemetry-compatible trace files (decoupled from the pipeline, not an in-graph node) for offline replay, built spec-first in thin, independently shippable slices against Amazon Bedrock models.
-- Added an online mode that tails live traces to score unlabeled traffic reference-free, with drift detection (PSI and embedding-centroid distance) across routing, retrieved context, input queries, and output quality.
+- Scored each agent hop with five deterministic checks (routing, retrieval, tool calls) plus three LLM-as-a-Judge scorers (per-hop faithfulness grounded in that hop's own source, answer relevance, route appropriateness), emitting structured per-hop verdicts. The deterministic context-precision and tool-call scores match RAGAS's own implementations on every test case.
+- Built deterministic failure attribution that walks per-agent verdicts in execution order to name the first agent whose own verdict failed, paired with retrieval and tool-call checks for the faults that leave every verdict passing (the wrong retrieved chunk, tool, or argument). Exercised on 7 fault-injection scenarios in a LangGraph pipeline.
+- Architected it to score saved, OpenTelemetry-compatible trace files (decoupled from the pipeline, not an in-graph node) for offline replay, so the same scorers ran unchanged on a Pydantic AI app's native OpenTelemetry traces through one added adapter. Built spec-first in thin, independently shippable slices against Amazon Bedrock models.
+- Added an online mode that tails live traces to score unlabeled traffic reference-free, plus a drift job (PSI and embedding-centroid distance) covering routing, retrieved context, input queries, and output quality.
 
 ---
 
