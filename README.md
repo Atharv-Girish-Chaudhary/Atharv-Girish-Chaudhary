@@ -83,12 +83,12 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ## Featured Projects
 
 **[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*\
-Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. A per-response latency and token panel, a zero-cost mock mode, and a spec-first build.\
+Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. Per-response latency and token counts, a zero-cost mock mode for development and CI, and a spec-first build.\
 `FastAPI · Python · JavaScript · SSE · OpenRouter`
 
 **[DevFlow: Engineering Lifecycle Intelligence Platform](https://github.com/Atharv-Girish-Chaudhary/devflow)** · *March 2026*\
 **1st Place, Northeastern "From Prototype to Product" AI Hackathon** (3-person team). Agentic system that captures engineering knowledge before team members leave and surfaces it when new ones onboard, differentiated from code-intelligence tools by targeting the why behind architectural decisions, not just the what. Design and architecture are published (story, docs, architecture diagram); the agentic implementation is the next build stage.\
-`Claude API · LangGraph · FastAPI · ChromaDB · Multi-Agent`
+Planned stack: `Claude API · LangGraph · FastAPI · ChromaDB · Multi-Agent`
 
 **[RL Beat Generation: PPO Agent with Transformer Discriminator](https://github.com/Atharv-Girish-Chaudhary/rl-beat-generation)** · *May 2026*\
 3-person team project; my part: the PPO training loop, the discriminator, and the Phase 2 expansion. Trained a PPO agent that beat the random baseline by **+130% rule reward** (0.96 vs 0.42) on a 4×16 drum-beat composition task, with autoregressive 3-head action factoring. Pre-trained a 2-layer, 4-head transformer beat discriminator on Groove MIDI, integrated as a learned reward in a hybrid α·rules + β·discriminator scheme. Extended to an 8×16 grid in Phase 2.\
