@@ -47,6 +47,7 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat&logo=claude&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA%20API-76B900?style=flat&logo=nvidia&logoColor=white)
 ![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat&logoColor=white)
@@ -75,6 +76,7 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![SLURM](https://img.shields.io/badge/SLURM-2C3E50?style=flat&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS Lightsail](https://img.shields.io/badge/AWS%20Lightsail-232F3E?style=flat&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
@@ -83,8 +85,8 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ## Featured Projects
 
 **[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*\
-Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. Per-response latency and token counts, a zero-cost mock mode for development and CI, and a spec-first build.\
-`FastAPI · Python · JavaScript · SSE · OpenRouter`
+Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. Per-response latency and token counts, a zero-cost mock mode for development and CI, and a spec-first build. Dockerized and hosted on AWS Lightsail; GitHub Actions runs lint and tests with a 95% coverage gate, and a version tag publishes the image to GitHub's container registry once they pass.\
+`FastAPI · Python · JavaScript · SSE · OpenRouter · Docker · AWS Lightsail · GitHub Actions`
 
 **[DevFlow: Engineering Lifecycle Intelligence Platform](https://github.com/Atharv-Girish-Chaudhary/devflow)** · *March 2026*\
 **1st Place, Northeastern "From Prototype to Product" AI Hackathon** (3-person team). Agentic system that captures engineering knowledge before team members leave and surfaces it when new ones onboard, differentiated from code-intelligence tools by targeting the why behind architectural decisions, not just the what. Design and architecture are published (story, docs, architecture diagram); the agentic implementation is the next build stage.\
