@@ -84,7 +84,7 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 
 ## Featured Projects
 
-**[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present*\
+**[model-verdict: Multi-Model Prompt-Comparison App](https://model-verdict.omnideckai.com)** · *May 2026 to present* · *source private*\
 Sends one prompt to 2 to 4 models chosen from a 9-model catalog, routed through OpenRouter, and streams their answers side by side in real time over Server-Sent Events. You pick a favorite, and a blind LLM-as-a-Judge picks its own winner from the shuffled answers, with its confidence, the winner's strengths, and what each other answer did better. The core value is the disagreement case: where the judge's blind pick diverges from yours. Per-response latency and token counts, a zero-cost mock mode for development and CI, and a spec-first build. Dockerized and hosted on AWS Lightsail; GitHub Actions runs lint and tests with a 95% coverage gate, and a version tag publishes the image to GitHub's container registry once they pass.\
 `FastAPI · Python · JavaScript · SSE · OpenRouter · Docker · AWS Lightsail · GitHub Actions`
 
