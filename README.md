@@ -73,7 +73,6 @@ Built an evaluator for multi-agent LLM pipelines: the supervisory evaluation lay
 ![Server-Sent Events](https://img.shields.io/badge/Server--Sent%20Events-FF6C37?style=flat&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![SLURM](https://img.shields.io/badge/SLURM-2C3E50?style=flat&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS Lightsail](https://img.shields.io/badge/AWS%20Lightsail-232F3E?style=flat&logoColor=white)
